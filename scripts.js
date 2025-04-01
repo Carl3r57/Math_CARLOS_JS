@@ -6,7 +6,10 @@ console.log(numeroAleatorio1);
 console.log(Math.PI);
 
 //3
-
+let numero1 = 5;
+let numero2 = 10;
+let numeroAleatorio2 = Math.round(Math.random() * (numero2 - numero1) + numero1);
+console.log("Número aleatorio entre 5 y 10:", numeroAleatorio2);
 
 //4
 
